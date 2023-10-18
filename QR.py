@@ -2,7 +2,7 @@ from MyQR import myqr
 import os
 import datetime
 
-url = "https://www.aliwork.com/s/desktopQR?seat="
+url = "https://1.1.1.1/desktopQR?seat="
 path = f"{os.environ['USERPROFILE']}\\Desktop\\qr\\"
 if not os.path.exists(path):
     os.makedirs(path)
